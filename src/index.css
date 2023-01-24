@@ -34,3 +34,43 @@ body {
   color: #fff;
   margin-left: auto;
 }
+
+.main-content {
+  padding: 40px;
+}
+
+.meme-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.break-column {
+  flex-basis: 100%;
+  width: 0;
+  height: 40px;
+  background-color: #a626d3;
+  background-image: linear-gradient(to right, #672280, #a626d3);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.textboxes {
+  flex-grow: 1;
+  width: 230px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  padding: 0 10px;
+  font-family: "Karla", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #0d0d0d;
+  text-indent: 5px;
+}
