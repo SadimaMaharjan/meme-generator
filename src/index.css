@@ -74,3 +74,11 @@ body {
   color: #0d0d0d;
   text-indent: 5px;
 }
+
+.image-display {
+  padding: 40px;
+}
+
+.meme-image {
+  width: 100%;
+}
